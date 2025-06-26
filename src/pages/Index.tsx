@@ -15,6 +15,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-purple-950 to-gray-950 relative">
       <BackgroundDecorations />
       <div className="relative z-10">
+        <h1>Hello World</h1>
         <Navigation />
         <Hero />
         <TokenSection />
