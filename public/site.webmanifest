@@ -1,0 +1,22 @@
+{
+  "name": "SIDE - Solana Institute of Digital Economics",
+  "short_name": "SIDE Finance",
+  "description": "Ведущий инвестиционный институт Solana с 300% средней доходностью",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0ea5e9",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary"
+} 
