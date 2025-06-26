@@ -43,7 +43,7 @@ const Hero = () => {
             
             <div className="flex items-center justify-center space-x-6 mb-8">
               <div className="h-px bg-gradient-to-r from-transparent via-cyan-400 to-transparent w-32"></div>
-              <div className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent tracking-[0.5em] px-4">
+              <div className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent tracking-[0.5em] px-4 font-dune-rise">
                 SIDE
               </div>
               <div className="h-px bg-gradient-to-r from-transparent via-cyan-400 to-transparent w-32"></div>

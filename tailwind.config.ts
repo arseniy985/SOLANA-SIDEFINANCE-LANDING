@@ -21,6 +21,7 @@ export default {
 		extend: {
 			fontFamily: {
 				'satoshi': ['Satoshi', 'sans-serif'],
+				'dune-rise': ['Dune Rise', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
