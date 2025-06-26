@@ -1,0 +1,68 @@
+name: Deploy to Host via SSH
+
+on:
+  push:
+    branches: [ release ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # Получаем код из репозитория
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    # Устанавливаем Node.js
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    # Устанавливаем зависимости
+    - name: Install dependencies
+      run: npm ci
+      
+    # Собираем проект
+    - name: Build project
+      run: npm run build
+      
+    # Проверяем, что папка dist создана
+    - name: Verify build
+      run: |
+        if [ ! -d "dist" ]; then
+          echo "❌ Папка dist не создана!"
+          exit 1
+        fi
+        echo "✅ Сборка прошла успешно!"
+        ls -la dist/
+        
+    # Деплой через SSH
+    - name: Deploy to host via SSH
+      uses: easingthemes/ssh-deploy@main
+      with:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        ARGS: "-rlgoDzvc -i --delete"
+        SOURCE: "dist/"
+        REMOTE_HOST: ${{ secrets.SSH_HOST }}
+        REMOTE_USER: ${{ secrets.SSH_USER }}
+        TARGET: ${{ secrets.SSH_TARGET_DIR }}
+        EXCLUDE: "/dist/, /node_modules/, /.git/, /.github/"
+        
+    # Дополнительные команды на сервере (опционально)
+    - name: Execute additional commands on server
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USER }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        script: |
+          echo "🔧 Выполняю дополнительные команды на сервере..."
+          # Здесь можно добавить команды для:
+          # - Перезапуска веб-сервера
+          # - Очистки кэша
+          # - Установки прав доступа
+          # chmod -R 755 ${{ secrets.SSH_TARGET_DIR }}
+          echo "✅ Деплой завершен успешно!" 

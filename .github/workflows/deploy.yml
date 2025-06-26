@@ -1,0 +1,64 @@
+name: Deploy to Host
+
+on:
+  push:
+    branches: [ release ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # Получаем код из репозитория
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    # Устанавливаем Node.js
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    # Устанавливаем зависимости
+    - name: Install dependencies
+      run: npm ci
+      
+    # Собираем проект
+    - name: Build project
+      run: npm run build
+      
+    # Проверяем, что папка dist создана
+    - name: Verify build
+      run: |
+        if [ ! -d "dist" ]; then
+          echo "❌ Папка dist не создана!"
+          exit 1
+        fi
+        echo "✅ Сборка прошла успешно!"
+        ls -la dist/
+        
+    # Деплой через FTP
+    - name: Deploy to host via FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.FTP_HOST }}
+        username: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        port: 21
+        protocol: ftp
+        local-dir: ./dist/
+        server-dir: ${{ secrets.FTP_SERVER_DIR }}
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+        log-level: verbose
+          
+    # Уведомление об успешном деплое
+    - name: Deployment success notification
+      run: |
+        echo "🚀 Проект успешно развернут!"
+        echo "📁 Файлы из папки dist загружены на хост"
+        echo "🌐 Проверьте ваш сайт" 
