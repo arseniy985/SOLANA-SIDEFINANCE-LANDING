@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Mail, Phone, MapPin, Twitter, Linkedin, Github, MessageCircle, Users, Video } from 'lucide-react';
+import { Mail, Phone, MapPin, Twitter, Github, MessageCircle, Users, Video } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -100,33 +100,45 @@ const Contact = () => {
               <div className="space-y-3">
                 {/* Первый ряд */}
                 <div className="flex space-x-4">
-                  <Button variant="outline" size="sm" className="border-purple-400/50 bg-gray-800/50 text-white hover:bg-purple-500/20 hover:border-purple-400">
-                    <Twitter className="w-4 h-4 mr-2" />
-                    Twitter
+                  <Button variant="outline" size="sm" className="border-purple-400/50 bg-gray-800/50 text-white hover:bg-purple-500/20 hover:border-purple-400" asChild>
+                    <a href="https://x.com/side_finance" target="_blank" rel="noopener noreferrer">
+                      <Twitter className="w-4 h-4 mr-2" />
+                      Twitter
+                    </a>
                   </Button>
-                  <Button variant="outline" size="sm" className="border-purple-400/50 bg-gray-800/50 text-white hover:bg-purple-500/20 hover:border-purple-400">
-                    <MessageCircle className="w-4 h-4 mr-2" />
-                    Telegram
+                  <Button variant="outline" size="sm" className="border-purple-400/50 bg-gray-800/50 text-white hover:bg-purple-500/20 hover:border-purple-400" asChild>
+                    <a href="https://t.me/sidefinance" target="_blank" rel="noopener noreferrer">
+                      <MessageCircle className="w-4 h-4 mr-2" />
+                      Telegram
+                    </a>
                   </Button>
-                  <Button variant="outline" size="sm" className="border-purple-400/50 bg-gray-800/50 text-white hover:bg-purple-500/20 hover:border-purple-400">
-                    <MessageCircle className="w-4 h-4 mr-2" />
-                    Discord
+                  <Button variant="outline" size="sm" className="border-purple-400/50 bg-gray-800/50 text-white hover:bg-purple-500/20 hover:border-purple-400" asChild>
+                    <a href="https://discord.gg/sidefinance" target="_blank" rel="noopener noreferrer">
+                      <MessageCircle className="w-4 h-4 mr-2" />
+                      Discord
+                    </a>
                   </Button>
                 </div>
                 
                 {/* Второй ряд */}
                 <div className="flex space-x-4">
-                  <Button variant="outline" size="sm" className="border-purple-400/50 bg-gray-800/50 text-white hover:bg-purple-500/20 hover:border-purple-400">
-                    <Users className="w-4 h-4 mr-2" />
-                    Partnership
+                  <Button variant="outline" size="sm" className="border-purple-400/50 bg-gray-800/50 text-white hover:bg-purple-500/20 hover:border-purple-400" asChild>
+                    <a href="mailto:support@sidefinance.org">
+                      <Users className="w-4 h-4 mr-2" />
+                      Partnership
+                    </a>
                   </Button>
-                  <Button variant="outline" size="sm" className="border-purple-400/50 bg-gray-800/50 text-white hover:bg-purple-500/20 hover:border-purple-400">
-                    <Video className="w-4 h-4 mr-2" />
-                    TikTok
+                  <Button variant="outline" size="sm" className="border-purple-400/50 bg-gray-800/50 text-white hover:bg-purple-500/20 hover:border-purple-400" asChild>
+                    <a href="https://medium.com/@sidefinance" target="_blank" rel="noopener noreferrer">
+                      <Video className="w-4 h-4 mr-2" />
+                      Medium
+                    </a>
                   </Button>
-                  <Button variant="outline" size="sm" className="border-purple-400/50 bg-gray-800/50 text-white hover:bg-purple-500/20 hover:border-purple-400">
-                    <Github className="w-4 h-4 mr-2" />
-                    GitHub
+                  <Button variant="outline" size="sm" className="border-purple-400/50 bg-gray-800/50 text-white hover:bg-purple-500/20 hover:border-purple-400" asChild>
+                    <a href="https://github.com/arseniy985/SOLANA-SIDEFINANCE-LANDING" target="_blank" rel="noopener noreferrer">
+                      <Github className="w-4 h-4 mr-2" />
+                      GitHub
+                    </a>
                   </Button>
                 </div>
               </div>

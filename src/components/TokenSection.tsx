@@ -383,17 +383,23 @@ const TokenSection = () => {
               </div>
 
               <div className="flex justify-center gap-3">
-                <Button variant="outline" className="border-blue-400/50 text-blue-400 hover:bg-blue-500/20 rounded-xl text-sm px-4 py-2">
-                  <Twitter className="w-3 h-3 mr-2" />
-                  Twitter
+                <Button variant="outline" className="border-blue-400/50 text-blue-400 hover:bg-blue-500/20 rounded-xl text-sm px-4 py-2" asChild>
+                  <a href="https://x.com/side_finance" target="_blank" rel="noopener noreferrer">
+                    <Twitter className="w-3 h-3 mr-2" />
+                    Twitter
+                  </a>
                 </Button>
-                <Button variant="outline" className="border-cyan-400/50 text-cyan-400 hover:bg-cyan-500/20 rounded-xl text-sm px-4 py-2">
-                  <MessageCircle className="w-3 h-3 mr-2" />
-                  Telegram  
+                <Button variant="outline" className="border-cyan-400/50 text-cyan-400 hover:bg-cyan-500/20 rounded-xl text-sm px-4 py-2" asChild>
+                  <a href="https://t.me/sidefinance" target="_blank" rel="noopener noreferrer">
+                    <MessageCircle className="w-3 h-3 mr-2" />
+                    Telegram  
+                  </a>
                 </Button>
-                <Button variant="outline" className="border-gray-400/50 text-gray-300 hover:bg-gray-500/20 rounded-xl text-sm px-4 py-2">
-                  <Github className="w-3 h-3 mr-2" />
-                  GitHub
+                <Button variant="outline" className="border-gray-400/50 text-gray-300 hover:bg-gray-500/20 rounded-xl text-sm px-4 py-2" asChild>
+                  <a href="https://github.com/arseniy985/SOLANA-SIDEFINANCE-LANDING" target="_blank" rel="noopener noreferrer">
+                    <Github className="w-3 h-3 mr-2" />
+                    GitHub
+                  </a>
                 </Button>
               </div>
             </TabsContent>

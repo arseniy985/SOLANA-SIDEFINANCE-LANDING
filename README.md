@@ -5,7 +5,7 @@
 ![SIDE Finance Banner](./public/photo_2025-06-25_23-14-35.jpg)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/your-username/solana-economy-institute-08/deploy.yml?branch=release)](https://github.com/your-username/solana-economy-institute-08/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/arseniy985/SOLANA-SIDEFINANCE-LANDING/deploy.yml?branch=release)](https://github.com/arseniy985/SOLANA-SIDEFINANCE-LANDING/actions)
 [![Website](https://img.shields.io/website?url=https%3A//sidefinance.org)](https://sidefinance.org)
 [![Solana](https://img.shields.io/badge/Built%20on-Solana-purple)](https://solana.com)
 
@@ -163,10 +163,10 @@
 
 <div align="center">
 
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arseniy985/SOLANA-SIDEFINANCE-LANDING)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/side_finance)
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/sidefinance)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/sidefinance)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sidefinance_io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/sidefinance)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@sidefinance)
 
 **🌟 Присоединяйтесь к 12,000+ инвесторов в нашем сообществе!**
@@ -205,10 +205,10 @@
 
 **🏢 SIDE - Solana Institute of Digital Economics**
 
-📧 **Email:** team@sidefinance.org  
+📧 **Email:** support@sidefinance.org  
 🌐 **Website:** [sidefinance.org](https://sidefinance.org)  
 📱 **Поддержка:** support@sidefinance.org  
-💼 **Партнерство:** partnerships@sidefinance.org  
+💼 **Партнерство:** support@sidefinance.org  
 
 **🕒 Поддержка доступна 24/7 в Telegram**
 

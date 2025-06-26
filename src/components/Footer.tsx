@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Separator } from '@/components/ui/separator';
-import { Twitter, Linkedin, Github, Mail } from 'lucide-react';
+import { Twitter, Github, Mail } from 'lucide-react';
 
 const Footer = () => {
   const footerLinks = {
@@ -53,18 +53,28 @@ const Footer = () => {
               education, and strategic investments on Solana.
             </p>
             <div className="flex space-x-4">
-              <div className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors cursor-pointer border border-gray-700">
+              <a 
+                href="https://x.com/side_finance" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors cursor-pointer border border-gray-700"
+              >
                 <Twitter className="w-5 h-5" />
-              </div>
-              <div className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors cursor-pointer border border-gray-700">
-                <Linkedin className="w-5 h-5" />
-              </div>
-              <div className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors cursor-pointer border border-gray-700">
+              </a>
+              <a 
+                href="https://github.com/arseniy985/SOLANA-SIDEFINANCE-LANDING" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors cursor-pointer border border-gray-700"
+              >
                 <Github className="w-5 h-5" />
-              </div>
-              <div className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors cursor-pointer border border-gray-700">
+              </a>
+              <a 
+                href="mailto:support@sidefinance.org" 
+                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors cursor-pointer border border-gray-700"
+              >
                 <Mail className="w-5 h-5" />
-              </div>
+              </a>
             </div>
           </div>
 

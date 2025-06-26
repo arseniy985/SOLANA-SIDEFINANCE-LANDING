@@ -32,11 +32,11 @@ const Hero = () => {
           
           {/* Main SIDE Acronym Expansion */}
           <div className="mb-12 py-4">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-[1.2] tracking-tight">
-              <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent font-extrabold pb-2">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-[1.2] tracking-tight font-satoshi">
+              <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent font-black pb-2">
                 Solana Institute of
               </span>
-              <span className="block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-400 bg-clip-text text-transparent font-extrabold pb-4">
+              <span className="block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-400 bg-clip-text text-transparent font-black pb-4">
                 Digital Economics
               </span>
             </h1>
