@@ -32,11 +32,11 @@ const Hero = () => {
           
           {/* Main SIDE Acronym Expansion */}
           <div className="mb-12 py-4">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-[1.2] tracking-tight font-satoshi">
-              <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent font-black pb-2">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-[1.2] tracking-tight font-space-grotesk">
+              <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent font-bold pb-2">
                 Solana Institute of
               </span>
-              <span className="block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-400 bg-clip-text text-transparent font-black pb-4">
+              <span className="block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-400 bg-clip-text text-transparent font-bold pb-4">
                 Digital Economics
               </span>
             </h1>
@@ -51,11 +51,11 @@ const Hero = () => {
           </div>
           
           {/* Value Proposition */}
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-8">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-8 font-space-grotesk">
             Transform <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">$1,000</span> Into <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">$100,000+</span>
           </h2>
           
-          <p className="max-w-4xl mx-auto mb-12 text-xl text-slate-200 leading-relaxed">
+          <p className="max-w-4xl mx-auto mb-12 text-xl text-slate-200 leading-relaxed font-space-grotesk">
             The world's most successful Solana-focused investment institute. 
             <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent font-bold"> 300% average ROI</span> backed by real results and proven track record.
           </p>

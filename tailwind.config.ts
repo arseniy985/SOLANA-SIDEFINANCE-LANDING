@@ -21,6 +21,7 @@ export default {
 		extend: {
 			fontFamily: {
 				'satoshi': ['Satoshi', 'sans-serif'],
+				'space-grotesk': ['Space Grotesk', 'sans-serif'],
 				'dune-rise': ['Dune Rise', 'serif'],
 			},
 			colors: {
