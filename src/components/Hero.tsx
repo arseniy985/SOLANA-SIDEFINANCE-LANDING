@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Shield, Star, Target, CheckCircle, TrendingUp, Award, BarChart3 } from 'lucide-react';
+import { ArrowRight, Shield, Star } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -76,99 +76,9 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* $SIDE Token Highlight */}
-          <div className="mb-16 mx-auto max-w-4xl">
-            <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/40 to-orange-500/30 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500"></div>
-              <div className="relative p-8 bg-gradient-to-br from-yellow-900/60 via-orange-900/50 to-yellow-900/60 rounded-3xl border-2 border-yellow-400/50 backdrop-blur-sm shadow-2xl">
-                <div className="flex items-center justify-center space-x-6 mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-2xl flex items-center justify-center shadow-xl">
-                    <img 
-                      src="/lovable-uploads/38c7bb81-42e5-4be7-9177-8f17c128376a.png" 
-                      alt="SIDE Token" 
-                      className="w-10 h-10"
-                    />
-                  </div>
-                  <h3 className="text-3xl font-bold text-white">$SIDE Token Launch</h3>
-                </div>
-                <p className="text-yellow-200 font-bold text-xl mb-6">
-                  Dividend distributions start at $10M market cap
-                </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div className="text-center p-4 bg-black/20 rounded-2xl">
-                    <div className="text-yellow-400 font-bold text-2xl">Early Access</div>
-                    <div className="text-yellow-200 text-base">Limited positions</div>
-                  </div>
-                  <div className="text-center p-4 bg-black/20 rounded-2xl">
-                    <div className="text-yellow-400 font-bold text-2xl">Guaranteed</div>
-                    <div className="text-yellow-200 text-base">Profit sharing</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          {/* Call to Action */}
-          <div className="flex flex-col sm:flex-row gap-8 justify-center items-center mb-16">
-            <Button 
-              size="lg" 
-              className="group relative overflow-hidden bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-600 hover:from-cyan-400 hover:via-blue-500 hover:to-purple-500 text-white px-20 py-8 rounded-3xl shadow-2xl hover:shadow-cyan-500/30 transition-all duration-300 hover:scale-105 text-xl font-bold border-0"
-            >
-              <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <Target className="w-7 h-7 mr-4 group-hover:rotate-12 transition-transform" />
-              Buy $SIDE Token
-              <ArrowRight className="ml-4 h-7 w-7 group-hover:translate-x-2 transition-transform" />
-            </Button>
-            
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="border-2 border-cyan-400/70 text-cyan-300 px-16 py-8 rounded-3xl backdrop-blur-sm hover:border-cyan-300 transition-all duration-300 bg-white/5 hover:bg-white/10 hover:scale-105 text-xl font-semibold"
-            >
-              <BarChart3 className="w-7 h-7 mr-4" />
-              View Performance
-            </Button>
-          </div>
+
         </div>
-        
-        {/* Trust Indicators */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          <div className="group relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/20 to-blue-500/15 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-            <div className="relative text-center p-8 bg-gradient-to-br from-slate-800/90 to-slate-900/90 rounded-3xl shadow-2xl border border-cyan-400/30 backdrop-blur-sm group-hover:scale-105 transition-all duration-300">
-              <div className="w-16 h-16 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl">
-                <CheckCircle className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-3">Proven Results</h3>
-              <p className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent font-bold text-lg mb-2">300% Average ROI</p>
-              <p className="text-gray-300 text-base">Consistent profits since 2018</p>
-            </div>
-          </div>
-          
-          <div className="group relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/15 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-            <div className="relative text-center p-8 bg-gradient-to-br from-slate-800/90 to-slate-900/90 rounded-3xl shadow-2xl border border-blue-400/30 backdrop-blur-sm group-hover:scale-105 transition-all duration-300">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl">
-                <Award className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-3">Elite Education</h3>
-              <p className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent font-bold text-lg mb-2">12K+ Graduates</p>
-              <p className="text-gray-300 text-base">95% placement rate</p>
-            </div>
-          </div>
-          
-          <div className="group relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-cyan-400/15 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-            <div className="relative text-center p-8 bg-gradient-to-br from-slate-800/90 to-slate-900/90 rounded-3xl shadow-2xl border border-purple-400/30 backdrop-blur-sm group-hover:scale-105 transition-all duration-300">
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-cyan-400 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl">
-                <TrendingUp className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-3">Market Leaders</h3>
-              <p className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent font-bold text-lg mb-2">15 Unicorns</p>
-              <p className="text-gray-300 text-base">$1B+ companies</p>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   );
