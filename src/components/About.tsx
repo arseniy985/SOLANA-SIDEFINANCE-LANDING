@@ -50,7 +50,7 @@ const About = () => {
   const majorAchievements = [
     {
       title: "Venture Fund Success",
-      value: "$150M+",
+      value: "$1.1M+",
       description: "Successfully raised and managed venture capital fund",
       detail: "Leading blockchain investments with 300% average ROI",
       icon: <Building className="w-8 h-8" />,
@@ -59,7 +59,7 @@ const About = () => {
     },
     {
       title: "Students Graduated",
-      value: "12,000+",
+      value: "1,125+",
       description: "Elite blockchain professionals trained and certified",
       detail: "95% employment rate in top-tier companies",
       icon: <GraduationCap className="w-8 h-8" />,
@@ -68,7 +68,7 @@ const About = () => {
     },
     {
       title: "Portfolio Companies",
-      value: "85+",
+      value: "13+",
       description: "Strategic investments in breakthrough startups",
       detail: "Average company valuation growth of 500%",
       icon: <TrendingUp className="w-8 h-8" />,
@@ -77,7 +77,7 @@ const About = () => {
     },
     {
       title: "Research Publications",
-      value: "200+",
+      value: "350+",
       description: "Groundbreaking academic papers and whitepapers",
       detail: "Published in top-tier journals with 50,000+ citations",
       icon: <FileText className="w-8 h-8" />,
@@ -101,8 +101,8 @@ const About = () => {
       icon: <Briefcase className="w-8 h-8" />,
       gradient: "from-emerald-500 to-green-600",
       achievements: [
-        "Raised $150M in Series A funding",
-        "85+ portfolio companies with avg 500% growth",
+        "Raised $1.1M in Series A funding",
+        "13+ portfolio companies with avg 500% growth",
         "15 unicorn companies created",
         "300% average ROI across all investments"
       ]
@@ -114,9 +114,9 @@ const About = () => {
       icon: <Medal className="w-8 h-8" />,
       gradient: "from-blue-500 to-cyan-600",
       achievements: [
-        "12,000+ certified blockchain professionals",
+        "1,125+ certified blockchain professionals",
         "95% job placement rate in tier-1 companies",
-        "Partnership with 200+ leading corporations",
+        "Partnership with 350+ leading corporations",
         "Alumni working at Google, Microsoft, Binance"
       ]
     },
@@ -127,7 +127,7 @@ const About = () => {
       icon: <BookOpen className="w-8 h-8" />,
       gradient: "from-purple-500 to-violet-600",
       achievements: [
-        "200+ peer-reviewed research papers",
+        "350+ peer-reviewed research papers",
         "50,000+ academic citations",
         "5 breakthrough patents in blockchain tech",
         "Collaboration with Stanford, MIT, Harvard"
@@ -136,12 +136,12 @@ const About = () => {
   ];
 
   const impactNumbers = [
-    { number: "12K+", label: "Graduates Employed", sublabel: "At Fortune 500 companies" },
-    { number: "$2.5B+", label: "Portfolio Valuation", sublabel: "Combined company value" },
-    { number: "85", label: "Active Investments", sublabel: "High-growth startups" },
-    { number: "15", label: "Unicorn Companies", sublabel: "Billion-dollar valuations" },
-    { number: "200+", label: "Research Papers", sublabel: "Published globally" },
-    { number: "50+", label: "Global Markets", sublabel: "Countries with presence" }
+    { number: "1.1K+", label: "Graduates Employed", sublabel: "At Fortune 500 companies" },
+    { number: "$25M+", label: "Portfolio Valuation", sublabel: "Combined company value" },
+    { number: "13", label: "Active Investments", sublabel: "High-growth startups" },
+    { number: "25", label: "Unicorn Companies", sublabel: "Billion-dollar valuations" },
+    { number: "350+", label: "Research Papers", sublabel: "Published globally" },
+    { number: "80+", label: "Global Markets", sublabel: "Countries with presence" }
   ];
 
   return (
@@ -303,8 +303,8 @@ const About = () => {
             </h3>
             
             <p className="text-xl text-gray-200 mb-12 max-w-4xl mx-auto leading-relaxed">
-              Ready to be part of an institution that has transformed 12,000+ careers, 
-              built $2.5B+ in portfolio value, and published 200+ groundbreaking research papers?
+              Ready to be part of an institution that has transformed 1,125+ careers, 
+              built $25M+ in portfolio value, and published 350+ groundbreaking research papers?
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center">

@@ -5,7 +5,7 @@ import { ArrowRight, Shield, Star } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+    <section className="pt-24 pb-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-to-r from-cyan-400/30 to-purple-600/20 rounded-full blur-3xl animate-pulse"></div>
@@ -32,11 +32,11 @@ const Hero = () => {
           
           {/* Main SIDE Acronym Expansion */}
           <div className="mb-12 py-4">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-[1.2] tracking-tight font-space-grotesk">
-              <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent font-bold pb-2">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-8 leading-[1.1] tracking-tight font-space-grotesk">
+              <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent font-black pb-2">
                 Solana Institute of
               </span>
-              <span className="block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-400 bg-clip-text text-transparent font-bold pb-4">
+              <span className="block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-400 bg-clip-text text-transparent font-black pb-4">
                 Digital Economics
               </span>
             </h1>
@@ -63,11 +63,11 @@ const Hero = () => {
           {/* Key Numbers */}
           <div className="flex flex-wrap justify-center gap-8 mb-16">
             <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 px-8 py-6 rounded-3xl border border-cyan-400/30 backdrop-blur-sm shadow-2xl hover:scale-105 transition-all duration-300">
-              <div className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">$150M+</div>
+              <div className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">$1.1M+</div>
               <div className="text-slate-300 text-sm font-medium">Fund Raised</div>
             </div>
             <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 px-8 py-6 rounded-3xl border border-purple-400/30 backdrop-blur-sm shadow-2xl hover:scale-105 transition-all duration-300">
-              <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">12K+</div>
+              <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">1K+</div>
               <div className="text-slate-300 text-sm font-medium">Students</div>
             </div>
             <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 px-8 py-6 rounded-3xl border border-blue-400/30 backdrop-blur-sm shadow-2xl hover:scale-105 transition-all duration-300">

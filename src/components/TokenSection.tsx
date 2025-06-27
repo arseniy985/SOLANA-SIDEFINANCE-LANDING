@@ -94,7 +94,7 @@ const TokenSection = () => {
       icon: Lock,
       title: "Multisig Treasury",
       subtitle: "Protected fund management", 
-      description: "5-of-7 multisig wallet securing $150M+ in assets with time-locked withdrawals",
+      description: "5-of-7 multisig wallet securing $1.1M+ in assets with time-locked withdrawals",
       status: "Active",
       color: "from-blue-600 to-cyan-700",
       borderColor: "border-blue-500/50",
@@ -173,7 +173,7 @@ const TokenSection = () => {
   ];
 
   return (
-    <section id="token" className="py-16 px-4 sm:px-6 lg:px-8 relative">
+    <section id="token" className="pt-4 pb-16 px-4 sm:px-6 lg:px-8 relative">
       <div className="max-w-6xl mx-auto relative z-10">
         {/* Header */}
         <div className="text-center mb-8">
@@ -322,7 +322,7 @@ const TokenSection = () => {
                   <div className="text-gray-300 text-xs">Monitoring</div>
                 </div>
                 <div className="text-center p-4 bg-gradient-to-br from-purple-900/30 to-violet-900/30 rounded-xl border border-purple-500/30">
-                  <div className="text-2xl font-bold text-purple-400 mb-1">$150M+</div>
+                  <div className="text-2xl font-bold text-purple-400 mb-1">$1.1M+</div>
                   <div className="text-gray-300 text-xs">Assets Secured</div>
                 </div>
                 <div className="text-center p-4 bg-gradient-to-br from-orange-900/30 to-red-900/30 rounded-xl border border-orange-500/30">
@@ -410,10 +410,10 @@ const TokenSection = () => {
         <div className="text-center mt-8">
           <div className="bg-gradient-to-r from-purple-900/40 via-violet-900/40 to-purple-900/40 p-6 rounded-2xl border border-purple-500/30 backdrop-blur-sm max-w-2xl mx-auto">
             <h2 className="text-xl font-bold text-white mb-2">
-              Start earning <span className="bg-gradient-to-r from-purple-300 to-violet-400 bg-clip-text text-transparent">today</span>
+              Join <span className="bg-gradient-to-r from-purple-300 to-violet-400 bg-clip-text text-transparent">SIDE</span> Today
             </h2>
             <p className="text-gray-200 mb-4 text-sm">
-              Don't miss the opportunity to earn passive income from blockchain economy development
+              Be part of the revolutionary blockchain economy development
             </p>
             
             <div className="flex flex-col sm:flex-row gap-3 justify-center">

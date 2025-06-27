@@ -192,7 +192,7 @@ const TokenOverview = () => {
               </div>
               <div>
                 <h4 className="text-white font-semibold text-sm">Proven Growth</h4>
-                <p className="text-gray-300 text-xs">$150M+ assets, 15 unicorns funded</p>
+                <p className="text-gray-300 text-xs">$1.1M+ assets, 15 unicorns funded</p>
               </div>
             </div>
 
