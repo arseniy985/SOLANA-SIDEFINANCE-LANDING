@@ -421,7 +421,7 @@ const TokenSection = () => {
                 Buy $SIDE Tokens
                 <ArrowUpRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button variant="outline" size="lg" className="border-purple-400/50 text-purple-300 hover:bg-purple-600/30 rounded-xl">
+              <Button variant="outline" size="lg" className="border-emerald-400/50 text-emerald-300 hover:bg-emerald-600/30 rounded-xl">
                 View on DexScreener
                 <ExternalLink className="w-4 h-4 ml-2" />
               </Button>

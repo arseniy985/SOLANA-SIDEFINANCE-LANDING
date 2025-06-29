@@ -52,7 +52,7 @@ const TokenOverview = () => {
             Buy $SIDE
             <ArrowUpRight className="w-4 h-4 ml-2" />
           </Button>
-          <Button variant="outline" size="lg" className="border-cyan-400/50 text-cyan-300 hover:bg-cyan-600/20 px-6 py-3 rounded-xl font-medium">
+          <Button variant="outline" size="lg" className="border-blue-400/50 text-blue-300 hover:bg-blue-600/20 px-6 py-3 rounded-xl font-medium">
             <BarChart3 className="w-4 h-4 mr-2" />
             DexScreener
             <ExternalLink className="w-4 h-4 ml-2" />
@@ -223,7 +223,7 @@ const TokenOverview = () => {
             Buy $SIDE Tokens
             <ArrowUpRight className="ml-2 h-4 w-4" />
           </Button>
-          <Button variant="outline" size="lg" className="border-purple-400/50 text-purple-300 hover:bg-purple-600/30 px-6 py-3 rounded-xl font-medium">
+          <Button variant="outline" size="lg" className="border-teal-400/50 text-teal-300 hover:bg-teal-600/30 px-6 py-3 rounded-xl font-medium">
             View on DexScreener
             <ExternalLink className="w-4 h-4 ml-2" />
           </Button>
