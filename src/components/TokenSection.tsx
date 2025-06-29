@@ -406,28 +406,7 @@ const TokenSection = () => {
           </Tabs>
         </div>
 
-        {/* Call to Action */}
-        <div className="text-center mt-8">
-          <div className="bg-gradient-to-r from-purple-900/40 via-violet-900/40 to-purple-900/40 p-6 rounded-2xl border border-purple-500/30 backdrop-blur-sm max-w-2xl mx-auto">
-            <h2 className="text-xl font-bold text-white mb-2">
-              Join <span className="bg-gradient-to-r from-purple-300 to-violet-400 bg-clip-text text-transparent">SIDE</span> Today
-            </h2>
-            <p className="text-gray-200 mb-4 text-sm">
-              Be part of the revolutionary blockchain economy development
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Button size="lg" className="bg-gradient-to-r from-purple-600 to-violet-700 hover:from-purple-700 hover:to-violet-800 text-white px-5 rounded-xl">
-                Buy $SIDE Tokens
-                <ArrowUpRight className="ml-2 h-4 w-4" />
-              </Button>
-              <Button size="lg" className="bg-gradient-to-r from-emerald-600/40 to-green-600/40 hover:from-emerald-600/60 hover:to-green-600/60 border border-emerald-400/50 text-emerald-300 rounded-xl backdrop-blur-sm">
-                View on DexScreener
-                <ExternalLink className="w-4 h-4 ml-2" />
-              </Button>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   );

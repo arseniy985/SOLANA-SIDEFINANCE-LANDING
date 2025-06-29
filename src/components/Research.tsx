@@ -88,6 +88,17 @@ const Research = () => {
       date: "January 2024",
       readTime: "20 min",
       badge: { text: "Premium", color: "from-indigo-500 to-purple-600", icon: <BarChart3 className="w-3 h-3" /> }
+    },
+    {
+      title: "Cross-Chain DeFi Yield Optimization & Risk Assessment",
+      description: "Advanced cross-chain yield farming strategies with comprehensive risk assessment models and automated rebalancing algorithms.",
+      category: "DeFi Intelligence",
+      impact: "Yield Maximization",
+      subscribers: "2.7K",
+      value: "$85K+",
+      date: "April 2024",
+      readTime: "35 min",
+      badge: { text: "Revolutionary", color: "from-emerald-500 to-teal-600", icon: <Zap className="w-3 h-3" /> }
     }
   ];
 

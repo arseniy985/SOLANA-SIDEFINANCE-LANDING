@@ -131,19 +131,21 @@ const VentureFund = () => {
         {/* Investment Strategy */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-20">
           {fundHighlights.map((highlight, index) => (
-            <div key={index} className="group relative">
+            <div key={index} className="group relative h-full">
               <div className={`absolute inset-0 bg-gradient-to-br ${highlight.bgGradient} rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300 opacity-40 group-hover:opacity-60`}></div>
-              <div className="relative bg-gradient-to-br from-gray-800/95 via-gray-700/90 to-gray-800/95 p-8 rounded-3xl border border-gray-600/40 hover:shadow-2xl transition-all duration-300 group-hover:scale-105 backdrop-blur-sm hover:border-emerald-500/50 text-center">
-                <div className="relative mb-6">
-                  <div className={`absolute inset-0 bg-gradient-to-r ${highlight.gradient} rounded-2xl blur-lg opacity-60 group-hover:opacity-80 transition-opacity duration-300`}></div>
-                  <div className={`relative w-16 h-16 bg-gradient-to-r ${highlight.gradient} rounded-2xl flex items-center justify-center mx-auto shadow-xl group-hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2`}>
-                    <div className="text-white">
-                      {highlight.icon}
+              <div className="relative bg-gradient-to-br from-gray-800/95 via-gray-700/90 to-gray-800/95 p-8 rounded-3xl border border-gray-600/40 hover:shadow-2xl transition-all duration-300 group-hover:scale-105 backdrop-blur-sm hover:border-emerald-500/50 text-center h-full min-h-[20rem] flex flex-col justify-between">
+                <div className="flex flex-col items-center">
+                  <div className="relative mb-6">
+                    <div className={`absolute inset-0 bg-gradient-to-r ${highlight.gradient} rounded-2xl blur-lg opacity-60 group-hover:opacity-80 transition-opacity duration-300`}></div>
+                    <div className={`relative w-16 h-16 bg-gradient-to-r ${highlight.gradient} rounded-2xl flex items-center justify-center mx-auto shadow-xl group-hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2`}>
+                      <div className="text-white">
+                        {highlight.icon}
+                      </div>
                     </div>
                   </div>
+                  
+                  <h4 className="text-xl font-bold text-cyan-300 mb-4">{highlight.title}</h4>
                 </div>
-                
-                <h4 className="text-xl font-bold text-cyan-300 mb-4">{highlight.title}</h4>
                 <p className="text-gray-200 text-sm leading-relaxed">{highlight.description}</p>
               </div>
             </div>
