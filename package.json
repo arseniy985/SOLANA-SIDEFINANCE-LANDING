@@ -1,8 +1,26 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "side-finance-landing",
+  "description": "SIDE - Solana Institute of Digital Economics: Leading Solana investment platform with 300% ROI, $3M fund, and 3 unicorns in portfolio",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "homepage": "https://sidefinance.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arseniy985/SOLANA-SIDEFINANCE-LANDING"
+  },
+  "keywords": [
+    "solana",
+    "defi",
+    "investment",
+    "crypto",
+    "venture-fund",
+    "roi",
+    "side-token",
+    "digital-economics"
+  ],
+  "author": "SIDE Team <support@sidefinance.org>",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

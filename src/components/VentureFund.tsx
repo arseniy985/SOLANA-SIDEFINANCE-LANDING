@@ -39,8 +39,8 @@ const VentureFund = () => {
   const fundHighlights = [
     {
       icon: <Target className="w-8 h-8" />,
-      title: "IPO Preparation",
-      description: "Specialized in preparing blockchain companies for public offerings",
+      title: "Project Support",
+      description: "Specialized in providing comprehensive support for blockchain projects",
       gradient: "from-emerald-500 via-teal-500 to-cyan-500",
       bgGradient: "from-emerald-500/10 to-cyan-500/20"
     },
@@ -64,6 +64,13 @@ const VentureFund = () => {
       description: "Ensuring full regulatory compliance for institutional adoption",
       gradient: "from-violet-500 via-purple-500 to-fuchsia-500",
       bgGradient: "from-violet-500/10 to-fuchsia-500/20"
+    },
+    {
+      icon: <Star className="w-8 h-8" />,
+      title: "Exclusive Research",
+      description: "Access to premium market intelligence and exclusive investment insights",
+      gradient: "from-orange-500 via-amber-500 to-yellow-500",
+      bgGradient: "from-orange-500/10 to-yellow-500/20"
     }
   ];
 
@@ -78,7 +85,7 @@ const VentureFund = () => {
           </div>
           
           <h2 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            SIDE
+            Partnership &
             <span className="bg-gradient-to-r from-emerald-300 via-teal-400 to-cyan-400 bg-clip-text text-transparent">
               {' '}Venture Fund
             </span>
@@ -122,7 +129,7 @@ const VentureFund = () => {
         </div>
 
         {/* Investment Strategy */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-20">
           {fundHighlights.map((highlight, index) => (
             <div key={index} className="group relative">
               <div className={`absolute inset-0 bg-gradient-to-br ${highlight.bgGradient} rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300 opacity-40 group-hover:opacity-60`}></div>
@@ -136,7 +143,7 @@ const VentureFund = () => {
                   </div>
                 </div>
                 
-                <h4 className="text-xl font-bold text-white mb-4">{highlight.title}</h4>
+                <h4 className="text-xl font-bold text-cyan-300 mb-4">{highlight.title}</h4>
                 <p className="text-gray-200 text-sm leading-relaxed">{highlight.description}</p>
               </div>
             </div>
@@ -166,7 +173,7 @@ const VentureFund = () => {
                     {process.step}
                   </div>
                 </div>
-                <h4 className="text-lg font-bold text-white mb-3">{process.title}</h4>
+                <h4 className="text-lg font-bold text-emerald-300 mb-3">{process.title}</h4>
                 <p className="text-gray-300 text-sm leading-relaxed">{process.description}</p>
               </div>
             ))}
@@ -218,7 +225,7 @@ const VentureFund = () => {
             <div className="mt-12 flex justify-center space-x-8 text-sm text-gray-300">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                <span>IPO Preparation</span>
+                <span>Project Support</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-teal-400 rounded-full"></div>

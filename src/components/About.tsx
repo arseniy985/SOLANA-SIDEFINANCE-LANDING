@@ -136,7 +136,7 @@ const About = () => {
 
   const impactNumbers = [
     { number: "1.1K+", label: "Graduates Employed", sublabel: "At Fortune 500 companies" },
-    { number: "$25M+", label: "Portfolio Valuation", sublabel: "Combined company value" },
+    { number: "$3M+", label: "Portfolio Valuation", sublabel: "Combined company value" },
     { number: "13", label: "Active Investments", sublabel: "High-growth startups" },
     { number: "3", label: "Unicorn Companies", sublabel: "Billion-dollar valuations" },
     { number: "350+", label: "Research Papers", sublabel: "Published globally" }
@@ -217,7 +217,7 @@ const About = () => {
                       <Badge className="bg-emerald-500/20 text-emerald-300 border-emerald-500/30 mb-1 text-xs">
                         {pillar.subtitle}
                       </Badge>
-                      <h3 className="text-lg font-bold text-white">{pillar.title}</h3>
+                      <h3 className="text-lg font-bold text-cyan-300">{pillar.title}</h3>
                     </div>
                   </div>
                   
@@ -258,7 +258,7 @@ const About = () => {
                   <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-green-500/10 rounded-2xl blur-lg group-hover:blur-xl transition-all duration-300 opacity-60 group-hover:opacity-80"></div>
                   <div className="relative bg-gradient-to-br from-slate-800/90 to-slate-900/90 p-6 rounded-2xl border border-emerald-500/20 backdrop-blur-sm group-hover:border-emerald-400/40 transition-all duration-300 text-center">
                     <div className="text-2xl lg:text-3xl font-bold text-emerald-400 mb-2">{metric.number}</div>
-                    <div className="text-white font-semibold text-sm mb-1">{metric.label}</div>
+                    <div className="text-cyan-300 font-semibold text-sm mb-1">{metric.label}</div>
                     <div className="text-gray-400 text-xs">{metric.sublabel}</div>
                   </div>
                 </div>
@@ -285,48 +285,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Call to Action */}
-        <div className="relative">
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-800/60 via-gray-800/40 to-slate-800/60 rounded-[3rem] backdrop-blur-sm"></div>
-          <div className="absolute inset-0 bg-gradient-to-r from-emerald-600/10 via-green-600/5 to-cyan-600/10 rounded-[3rem]"></div>
-          <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-emerald-500/20 via-green-500/10 to-transparent rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-cyan-500/20 via-blue-500/10 to-transparent rounded-full blur-3xl"></div>
-          
-          <div className="relative p-16 text-center">
-            <h3 className="text-4xl font-bold text-white mb-8 leading-tight">
-              Join Our Success Story
-              <span className="block bg-gradient-to-r from-emerald-300 to-cyan-400 bg-clip-text text-transparent">
-                Be Part of Excellence
-              </span>
-            </h3>
-            
-            <p className="text-xl text-gray-200 mb-12 max-w-4xl mx-auto leading-relaxed">
-              Ready to be part of an institution that has transformed 1,125+ careers, 
-              built $25M+ in portfolio value, and published 350+ groundbreaking research papers?
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <Button 
-                size="lg" 
-                className="relative overflow-hidden bg-gradient-to-r from-emerald-600 via-green-600 to-cyan-600 hover:from-emerald-700 hover:via-green-700 hover:to-cyan-700 text-white font-bold px-12 py-6 shadow-2xl border-0 group transition-all duration-300 hover:scale-105 rounded-2xl text-lg"
-              >
-                <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <Rocket className="w-6 h-6 mr-4 group-hover:translate-x-1 transition-transform" />
-                Join Our Programs
-                <ArrowUpRight className="w-5 h-5 ml-3 group-hover:rotate-12 transition-transform" />
-              </Button>
-              
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-2 border-emerald-400/50 bg-white/5 text-white hover:bg-emerald-500/20 hover:border-emerald-300 font-bold px-12 py-6 backdrop-blur-sm group transition-all duration-300 hover:scale-105 rounded-2xl text-lg shadow-2xl"
-              >
-                <Eye className="w-6 h-6 mr-4 group-hover:rotate-12 transition-transform" />
-                View Portfolio
-              </Button>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   );
