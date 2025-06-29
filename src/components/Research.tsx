@@ -199,9 +199,6 @@ const Research = () => {
                 <Download className="w-4 h-4 mr-1" />
                 Download
               </Button>
-              <Button size="sm" variant="outline" className="border-purple-400/50 text-purple-200 hover:bg-purple-600/30 hover:border-purple-300">
-                <ExternalLink className="w-4 h-4" />
-              </Button>
             </div>
           </div>
         </CardContent>
@@ -278,9 +275,6 @@ const Research = () => {
               <Button size="sm" className="bg-gradient-to-r from-yellow-600 to-orange-700 hover:from-yellow-700 hover:to-orange-800 text-white border-0 shadow-md group-hover:shadow-lg transition-all duration-300">
                 <Lock className="w-4 h-4 mr-1" />
                 Access
-              </Button>
-              <Button size="sm" variant="outline" className="border-yellow-400/50 text-yellow-200 hover:bg-yellow-600/30 hover:border-yellow-300">
-                <ChevronRight className="w-4 h-4" />
               </Button>
             </div>
           </div>
