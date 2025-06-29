@@ -269,7 +269,7 @@ const About = () => {
 
         {/* Success Metrics Bar */}
         <div className="mb-16">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 justify-items-center max-w-4xl mx-auto">
             {successMetrics.map((metric, index) => (
               <div key={index} className="flex items-center space-x-4 p-6 bg-gradient-to-r from-slate-800/60 to-slate-700/40 rounded-2xl border border-emerald-500/20 backdrop-blur-sm">
                 <div className="w-12 h-12 bg-gradient-to-r from-emerald-500 to-green-600 rounded-xl flex items-center justify-center text-white flex-shrink-0">
