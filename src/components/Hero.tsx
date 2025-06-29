@@ -32,7 +32,7 @@ const Hero = () => {
           
           {/* Main SIDE Acronym Expansion */}
           <div className="mb-12 py-4">
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-8 leading-[1.1] tracking-tight font-space-grotesk">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white mb-8 leading-[1.1] tracking-tight font-space-grotesk">
               <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent font-black pb-2">
                 Solana Institute of
               </span>

@@ -103,22 +103,6 @@ const Education = () => {
       color: "from-pink-500 to-rose-600",
       icon: <Award className="w-3 h-3 mr-1" />
     }
-  }, {
-    title: "Enterprise DeFi Development",
-    description: "Build enterprise-grade DeFi protocols with advanced smart contract architecture and security.",
-    duration: "16 weeks",
-    students: 125,
-    rating: 5.0,
-    price: "$2,499",
-    originalPrice: "$3,499",
-    features: ["Enterprise projects", "Security audits", "Job placement", "Lifetime updates"],
-    icon: <Award className="w-6 h-6" />,
-    gradient: "from-indigo-500 to-purple-600",
-    badge: {
-      text: "Enterprise",
-      color: "from-indigo-500 to-purple-600",
-      icon: <Crown className="w-3 h-3 mr-1" />
-    }
   }];
 
   const upcomingEvents = [{

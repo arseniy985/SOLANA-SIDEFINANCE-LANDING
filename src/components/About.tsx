@@ -89,8 +89,7 @@ const About = () => {
   const successMetrics = [
     { label: "Fund Performance", value: "300%", suffix: "ROI", icon: <LineChart className="w-6 h-6" /> },
     { label: "Student Success", value: "95%", suffix: "Placement", icon: <Trophy className="w-6 h-6" /> },
-    { label: "Market Leaders", value: "15", suffix: "Unicorns", icon: <Crown className="w-6 h-6" /> },
-    { label: "Global Reach", value: "50+", suffix: "Countries", icon: <Globe className="w-6 h-6" /> }
+    { label: "Market Leaders", value: "3", suffix: "Unicorns", icon: <Crown className="w-6 h-6" /> }
   ];
 
   const pillarsOfSuccess = [
@@ -103,7 +102,7 @@ const About = () => {
       achievements: [
         "Raised $1.1M in Series A funding",
         "13+ portfolio companies with avg 500% growth",
-        "15 unicorn companies created",
+        "3 unicorn companies created",
         "300% average ROI across all investments"
       ]
     },
@@ -139,9 +138,8 @@ const About = () => {
     { number: "1.1K+", label: "Graduates Employed", sublabel: "At Fortune 500 companies" },
     { number: "$25M+", label: "Portfolio Valuation", sublabel: "Combined company value" },
     { number: "13", label: "Active Investments", sublabel: "High-growth startups" },
-    { number: "25", label: "Unicorn Companies", sublabel: "Billion-dollar valuations" },
-    { number: "350+", label: "Research Papers", sublabel: "Published globally" },
-    { number: "80+", label: "Global Markets", sublabel: "Countries with presence" }
+    { number: "3", label: "Unicorn Companies", sublabel: "Billion-dollar valuations" },
+    { number: "350+", label: "Research Papers", sublabel: "Published globally" }
   ];
 
   return (
