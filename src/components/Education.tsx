@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -107,30 +106,30 @@ const Education = () => {
 
   const upcomingEvents = [{
     title: "Solana Digital Economy Summit 2024",
-    date: "June 15-17, 2024",
+    date: "September 15-17, 2024",
     location: "San Francisco, CA",
     type: "Conference",
-    description: "Join industry leaders discussing the future of Solana ecosystem and digital economics innovations.",
+    description: "Join industry leaders discussing the future of Solana ecosystem and digital economics innovations. Registration opens in August.",
     attendees: 2500,
     price: "$299",
     status: "Early Bird",
     features: ["3-day access", "Networking events", "Speaker sessions", "Workshop access"]
   }, {
     title: "Blockchain Regulation Workshop",
-    date: "May 20, 2024",
+    date: "September 20, 2024",
     location: "Online",
     type: "Workshop",
-    description: "Navigate the evolving regulatory landscape of blockchain technology and compliance requirements.",
+    description: "Navigate the evolving regulatory landscape of blockchain technology and compliance requirements. Registration opens in August.",
     attendees: 150,
     price: "FREE",
     status: "Limited Spots",
     features: ["Expert speakers", "Q&A sessions", "Certificate", "Recording access"]
   }, {
     title: "DeFi Innovation Hackathon",
-    date: "July 1-3, 2024",
+    date: "September 25-27, 2024",
     location: "New York, NY",
     type: "Hackathon",
-    description: "Build the next generation of DeFi protocols with mentorship from industry experts.",
+    description: "Build the next generation of DeFi protocols with mentorship from industry experts. Registration opens in August.",
     attendees: 500,
     price: "$99",
     status: "Hot",
@@ -218,7 +217,7 @@ const Education = () => {
               {isFree ? (
                 <>
                   <PlayCircle className="w-4 h-4 mr-2" />
-                  Start Free
+                  Coming Soon
                 </>
               ) : (
                 <>

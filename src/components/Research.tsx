@@ -1,12 +1,12 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { FileText, Download, ExternalLink, TrendingUp, Award, Target, Lock, Users, Shield, Star, Rocket, Brain, Zap, Globe, Eye, EyeOff, Crown, Gem, ChevronRight, BarChart3 } from 'lucide-react';
+import { FileText, Download, ExternalLink, TrendingUp, Award, Target, Lock, Users, Shield, Star, Rocket, Brain, Zap, Globe, Eye, EyeOff, Crown, Gem, ChevronRight, BarChart3, Heart, CheckCircle } from 'lucide-react';
 
 const Research = () => {
   const [activeTab, setActiveTab] = useState('public');
+  const [surveyResponse, setSurveyResponse] = useState(null);
 
   const publicResearch = [
     {
@@ -422,26 +422,60 @@ const Research = () => {
           </div>
         </div>
 
-        {/* CTA Section */}
+        {/* Simple Survey Section */}
         <div className="mt-20 relative">
           <div className="absolute inset-0 bg-gradient-to-br from-purple-900/40 via-violet-900/30 to-fuchsia-900/40 rounded-3xl"></div>
           <div className="relative p-12 text-center">
-            <h3 className="text-3xl font-bold text-white mb-4">
-              Ready to Access Exclusive Research?
-            </h3>
-            <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join our certification program to unlock premium research, trading intelligence, and market insights.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-gradient-to-r from-purple-600 to-violet-700 hover:from-purple-700 hover:to-violet-800 text-white px-8 py-4">
-                <Crown className="w-5 h-5 mr-2" />
-                Join Program
-              </Button>
-              <Button size="lg" variant="outline" className="border-white/30 bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm px-8 py-4">
-                <FileText className="w-5 h-5 mr-2" />
-                View All Research
-              </Button>
-            </div>
+            {!surveyResponse ? (
+              <>
+                <h3 className="text-3xl font-bold text-white mb-4">
+                  Do you find our research topics interesting?
+                </h3>
+                <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
+                  We're curious about your thoughts on our blockchain and digital economics research.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Button 
+                    size="lg" 
+                    onClick={() => setSurveyResponse('yes')}
+                    className="bg-gradient-to-r from-green-600 to-emerald-700 hover:from-green-700 hover:to-emerald-800 text-white px-8 py-4"
+                  >
+                    <Heart className="w-5 h-5 mr-2" />
+                    Yes, I love them!
+                  </Button>
+                  <Button 
+                    size="lg" 
+                    onClick={() => setSurveyResponse('no')}
+                    variant="outline" 
+                    className="border-white/30 bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm px-8 py-4"
+                  >
+                    Not really
+                  </Button>
+                </div>
+              </>
+            ) : (
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <CheckCircle className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-3xl font-bold text-white mb-4">
+                  {surveyResponse === 'yes' ? 'Thank you for your interest!' : 'Thanks for your feedback!'}
+                </h3>
+                <p className="text-lg text-gray-300 mb-6">
+                  {surveyResponse === 'yes' 
+                    ? 'We\'re thrilled you enjoy our research! Stay tuned for more exciting insights.'
+                    : 'Your feedback helps us improve. We\'ll work on making our research more engaging.'
+                  }
+                </p>
+                <Button 
+                  size="lg" 
+                  onClick={() => setSurveyResponse(null)}
+                  className="bg-gradient-to-r from-purple-600 to-violet-700 hover:from-purple-700 hover:to-violet-800 text-white px-8 py-4"
+                >
+                  Ask Again
+                </Button>
+              </div>
+            )}
           </div>
         </div>
       </div>

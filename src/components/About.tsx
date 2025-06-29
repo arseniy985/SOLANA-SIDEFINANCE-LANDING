@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { 
   TrendingUp, 
@@ -160,7 +159,7 @@ const About = () => {
             <Sparkles className="w-4 h-4 ml-2 animate-pulse" />
           </div>
           
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 leading-tight px-4">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight px-4">
             <span className="block text-white mb-2">Transforming</span>
             <span className="block bg-gradient-to-r from-emerald-300 via-green-400 to-cyan-400 bg-clip-text text-transparent leading-relaxed">
               Digital Economics
