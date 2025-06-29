@@ -166,8 +166,6 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arseniy985/SOLANA-SIDEFINANCE-LANDING)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/side_finance)
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/sidefinance)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/sidefinance)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@sidefinance)
 
 **🌟 Присоединяйтесь к 1,125+ инвесторов в нашем сообществе!**
 
@@ -208,7 +206,7 @@
 📧 **Email:** support@sidefinance.org  
 🌐 **Website:** [sidefinance.org](https://sidefinance.org)  
 📱 **Поддержка:** support@sidefinance.org  
-💼 **Партнерство:** support@sidefinance.org  
+💼 **Партнерство:** team@sidefinance.org  
 
 **🕒 Поддержка доступна 24/7 в Telegram**
 

@@ -84,12 +84,12 @@ const Footer = () => {
                   support@sidefinance.org
                 </a>
               </li>
-              <li>
-                <p className="text-gray-400 text-sm">Partnerships</p>
-                <a href="mailto:partnerships@sidefinance.org" className="text-purple-400 hover:text-purple-300 transition-colors text-sm">
-                  partnerships@sidefinance.org
-                </a>
-              </li>
+                             <li>
+                 <p className="text-gray-400 text-sm">Team Contact</p>
+                 <a href="mailto:team@sidefinance.org" className="text-purple-400 hover:text-purple-300 transition-colors text-sm">
+                   team@sidefinance.org
+                 </a>
+               </li>
               <li>
                 <p className="text-gray-400 text-sm">Global Presence</p>
                 <p className="text-gray-300 text-sm">Operating worldwide</p>

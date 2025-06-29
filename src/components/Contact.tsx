@@ -46,18 +46,18 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Partnership */}
-          <div className="group relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-emerald-600/20 to-teal-600/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300 opacity-60"></div>
-            <div className="relative bg-gradient-to-br from-gray-800/95 via-gray-700/90 to-gray-800/95 p-8 rounded-3xl border border-emerald-500/30 hover:border-emerald-400/50 transition-all duration-300 group-hover:scale-105 backdrop-blur-sm text-center">
-              <div className="w-16 h-16 bg-gradient-to-br from-emerald-600 to-teal-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl group-hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
-                <Users className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-emerald-300 mb-3">Partnerships</h3>
-              <p className="text-gray-200 text-lg font-medium mb-2">partnerships@sidefinance.org</p>
-              <p className="text-gray-400 text-sm">Strategic collaborations</p>
-            </div>
-          </div>
+                     {/* Team Contact */}
+           <div className="group relative">
+             <div className="absolute inset-0 bg-gradient-to-br from-emerald-600/20 to-teal-600/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300 opacity-60"></div>
+             <div className="relative bg-gradient-to-br from-gray-800/95 via-gray-700/90 to-gray-800/95 p-8 rounded-3xl border border-emerald-500/30 hover:border-emerald-400/50 transition-all duration-300 group-hover:scale-105 backdrop-blur-sm text-center">
+               <div className="w-16 h-16 bg-gradient-to-br from-emerald-600 to-teal-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl group-hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
+                 <Users className="w-8 h-8 text-white" />
+               </div>
+               <h3 className="text-xl font-bold text-emerald-300 mb-3">Team Contact</h3>
+               <p className="text-gray-200 text-lg font-medium mb-2">team@sidefinance.org</p>
+               <p className="text-gray-400 text-sm">Strategic collaborations</p>
+             </div>
+           </div>
 
           {/* Global Presence */}
           <div className="group relative">
@@ -76,7 +76,7 @@ const Contact = () => {
                  {/* Social Media & Links */}
          <div className="max-w-4xl mx-auto mb-16">
            <h3 className="text-2xl font-bold text-white mb-8 text-center">Connect With Us</h3>
-           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 max-w-3xl mx-auto">
+           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-2xl mx-auto">
              <Button variant="outline" className="border-blue-400/50 bg-gray-800/50 text-blue-300 hover:bg-blue-500/20 hover:border-blue-400 transition-all duration-300 hover:scale-105 h-12" asChild>
                <a href="https://x.com/side_finance" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
                  <Twitter className="w-5 h-5 mr-2" />
@@ -91,13 +91,6 @@ const Contact = () => {
                </a>
              </Button>
              
-             <Button variant="outline" className="border-indigo-400/50 bg-gray-800/50 text-indigo-300 hover:bg-indigo-500/20 hover:border-indigo-400 transition-all duration-300 hover:scale-105 h-12" asChild>
-               <a href="https://discord.gg/sidefinance" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
-                 <MessageCircle className="w-5 h-5 mr-2" />
-                 Discord
-               </a>
-             </Button>
-             
              <Button variant="outline" className="border-gray-400/50 bg-gray-800/50 text-gray-300 hover:bg-gray-500/20 hover:border-gray-400 transition-all duration-300 hover:scale-105 h-12" asChild>
                <a href="https://github.com/arseniy985/SOLANA-SIDEFINANCE-LANDING" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
                  <Github className="w-5 h-5 mr-2" />
@@ -106,9 +99,9 @@ const Contact = () => {
              </Button>
              
              <Button variant="outline" className="border-emerald-400/50 bg-gray-800/50 text-emerald-300 hover:bg-emerald-500/20 hover:border-emerald-400 transition-all duration-300 hover:scale-105 h-12" asChild>
-               <a href="mailto:partnerships@sidefinance.org" className="flex items-center justify-center">
+               <a href="mailto:team@sidefinance.org" className="flex items-center justify-center">
                  <Users className="w-5 h-5 mr-2" />
-                 Partners
+                 Team
                </a>
              </Button>
            </div>

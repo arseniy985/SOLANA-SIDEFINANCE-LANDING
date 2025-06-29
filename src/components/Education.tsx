@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { BookOpen, Users, Calendar, Award, TrendingUp, Shield, Target, Zap, DollarSign, Star, Clock, PlayCircle, Flame, Gift, Crown, Rocket, MapPin, ExternalLink, Download, CheckCircle, Globe, Briefcase } from 'lucide-react';
+import { BookOpen, Users, Calendar, Award, TrendingUp, Shield, Target, Zap, DollarSign, Star, Clock, PlayCircle, Flame, Gift, Crown, Rocket, MapPin, ExternalLink, CheckCircle, Globe, Briefcase } from 'lucide-react';
 
 const Education = () => {
   const [activeCategory, setActiveCategory] = useState('free');
@@ -495,17 +495,7 @@ const Education = () => {
                   ))}
                 </div>
 
-                {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button size="lg" className="bg-gradient-to-r from-purple-600 to-violet-700 hover:from-purple-700 hover:to-violet-800 text-white px-8 py-4">
-                    <Award className="w-5 h-5 mr-2" />
-                    View Certification Tracks
-                  </Button>
-                  <Button size="lg" variant="outline" className="border-white/30 bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm px-8 py-4">
-                    <Download className="w-5 h-5 mr-2" />
-                    Download Curriculum
-                  </Button>
-                </div>
+
               </div>
 
               {/* Right side - Visual */}
