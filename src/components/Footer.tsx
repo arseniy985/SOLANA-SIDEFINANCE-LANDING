@@ -4,39 +4,21 @@ import { Separator } from '@/components/ui/separator';
 import { Twitter, Github, Mail } from 'lucide-react';
 
 const Footer = () => {
-  const footerLinks = {
-    "Research": [
-      "Latest Reports",
-      "Case Studies",
-      "White Papers",
-      "Research Team"
-    ],
-    "Education": [
-      "Online Courses",
-      "Workshops",
-      "Certification",
-      "Events"
-    ],
-    "Venture Fund": [
-      "Portfolio",
-      "Investment Criteria",
-      "Apply for Funding",
-      "Success Stories"
-    ],
-    "About": [
-      "Our Mission",
-      "Team",
-      "Careers",
-      "Press"
-    ]
-  };
+  const quickLinks = [
+    { name: "About", href: "#about" },
+    { name: "Research", href: "#research" },
+    { name: "Education", href: "#education" },
+    { name: "$SIDE Token", href: "#token" },
+    { name: "Venture Fund", href: "#venture" },
+    { name: "Contact", href: "#contact" }
+  ];
 
   return (
     <footer className="bg-gray-900 text-white border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {/* Brand */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-4">
               <img 
                 src="/lovable-uploads/38c7bb81-42e5-4be7-9177-8f17c128376a.png" 
@@ -78,21 +60,42 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Links */}
-          {Object.entries(footerLinks).map(([category, links]) => (
-            <div key={category}>
-              <h3 className="font-semibold mb-4 text-white">{category}</h3>
-              <ul className="space-y-2">
-                {links.map((link) => (
-                  <li key={link}>
-                    <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors text-sm">
-                      {link}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          {/* Quick Navigation */}
+          <div>
+            <h3 className="font-semibold mb-4 text-white">Quick Navigation</h3>
+            <ul className="space-y-2">
+              {quickLinks.map((link) => (
+                <li key={link.name}>
+                  <a href={link.href} className="text-gray-400 hover:text-purple-400 transition-colors text-sm">
+                    {link.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Contact Info */}
+          <div>
+            <h3 className="font-semibold mb-4 text-white">Contact</h3>
+            <ul className="space-y-3">
+              <li>
+                <p className="text-gray-400 text-sm">Email Support</p>
+                <a href="mailto:support@sidefinance.org" className="text-purple-400 hover:text-purple-300 transition-colors text-sm">
+                  support@sidefinance.org
+                </a>
+              </li>
+              <li>
+                <p className="text-gray-400 text-sm">Partnerships</p>
+                <a href="mailto:partnerships@sidefinance.org" className="text-purple-400 hover:text-purple-300 transition-colors text-sm">
+                  partnerships@sidefinance.org
+                </a>
+              </li>
+              <li>
+                <p className="text-gray-400 text-sm">Global Presence</p>
+                <p className="text-gray-300 text-sm">Operating worldwide</p>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <Separator className="my-8 bg-gray-800" />
@@ -101,10 +104,8 @@ const Footer = () => {
           <div className="text-sm text-gray-400">
             © 2024 SIDE Finance Digital Economy Institute. All rights reserved.
           </div>
-          <div className="flex space-x-6 text-sm text-gray-400">
-            <a href="#" className="hover:text-purple-400 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-purple-400 transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-purple-400 transition-colors">Cookie Policy</a>
+          <div className="text-sm text-gray-400">
+            Built on Solana • Powered by Innovation
           </div>
         </div>
       </div>

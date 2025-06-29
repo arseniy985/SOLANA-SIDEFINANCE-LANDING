@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Mail, Phone, MapPin, Twitter, Github, MessageCircle, Users, Video, Clock, Globe, Shield } from 'lucide-react';
+import { Mail, Phone, MapPin, Twitter, Github, MessageCircle, Users, Clock, Globe, Shield } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -73,53 +73,46 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Social Media & Links */}
-        <div className="max-w-4xl mx-auto mb-16">
-          <h3 className="text-2xl font-bold text-white mb-8 text-center">Connect With Us</h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            <Button variant="outline" className="border-blue-400/50 bg-gray-800/50 text-blue-300 hover:bg-blue-500/20 hover:border-blue-400 transition-all duration-300 hover:scale-105 h-12" asChild>
-              <a href="https://x.com/side_finance" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
-                <Twitter className="w-5 h-5 mr-2" />
-                Twitter
-              </a>
-            </Button>
-            
-            <Button variant="outline" className="border-cyan-400/50 bg-gray-800/50 text-cyan-300 hover:bg-cyan-500/20 hover:border-cyan-400 transition-all duration-300 hover:scale-105 h-12" asChild>
-              <a href="https://t.me/sidefinance" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
-                <MessageCircle className="w-5 h-5 mr-2" />
-                Telegram
-              </a>
-            </Button>
-            
-            <Button variant="outline" className="border-indigo-400/50 bg-gray-800/50 text-indigo-300 hover:bg-indigo-500/20 hover:border-indigo-400 transition-all duration-300 hover:scale-105 h-12" asChild>
-              <a href="https://discord.gg/sidefinance" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
-                <MessageCircle className="w-5 h-5 mr-2" />
-                Discord
-              </a>
-            </Button>
-            
-            <Button variant="outline" className="border-orange-400/50 bg-gray-800/50 text-orange-300 hover:bg-orange-500/20 hover:border-orange-400 transition-all duration-300 hover:scale-105 h-12" asChild>
-              <a href="https://medium.com/@sidefinance" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
-                <Video className="w-5 h-5 mr-2" />
-                Medium
-              </a>
-            </Button>
-            
-            <Button variant="outline" className="border-gray-400/50 bg-gray-800/50 text-gray-300 hover:bg-gray-500/20 hover:border-gray-400 transition-all duration-300 hover:scale-105 h-12" asChild>
-              <a href="https://github.com/arseniy985/SOLANA-SIDEFINANCE-LANDING" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
-                <Github className="w-5 h-5 mr-2" />
-                GitHub
-              </a>
-            </Button>
-            
-            <Button variant="outline" className="border-emerald-400/50 bg-gray-800/50 text-emerald-300 hover:bg-emerald-500/20 hover:border-emerald-400 transition-all duration-300 hover:scale-105 h-12" asChild>
-              <a href="mailto:partnerships@sidefinance.org" className="flex items-center justify-center">
-                <Users className="w-5 h-5 mr-2" />
-                Partners
-              </a>
-            </Button>
-          </div>
-        </div>
+                 {/* Social Media & Links */}
+         <div className="max-w-4xl mx-auto mb-16">
+           <h3 className="text-2xl font-bold text-white mb-8 text-center">Connect With Us</h3>
+           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 max-w-3xl mx-auto">
+             <Button variant="outline" className="border-blue-400/50 bg-gray-800/50 text-blue-300 hover:bg-blue-500/20 hover:border-blue-400 transition-all duration-300 hover:scale-105 h-12" asChild>
+               <a href="https://x.com/side_finance" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                 <Twitter className="w-5 h-5 mr-2" />
+                 Twitter
+               </a>
+             </Button>
+             
+             <Button variant="outline" className="border-cyan-400/50 bg-gray-800/50 text-cyan-300 hover:bg-cyan-500/20 hover:border-cyan-400 transition-all duration-300 hover:scale-105 h-12" asChild>
+               <a href="https://t.me/sidefinance" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                 <MessageCircle className="w-5 h-5 mr-2" />
+                 Telegram
+               </a>
+             </Button>
+             
+             <Button variant="outline" className="border-indigo-400/50 bg-gray-800/50 text-indigo-300 hover:bg-indigo-500/20 hover:border-indigo-400 transition-all duration-300 hover:scale-105 h-12" asChild>
+               <a href="https://discord.gg/sidefinance" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                 <MessageCircle className="w-5 h-5 mr-2" />
+                 Discord
+               </a>
+             </Button>
+             
+             <Button variant="outline" className="border-gray-400/50 bg-gray-800/50 text-gray-300 hover:bg-gray-500/20 hover:border-gray-400 transition-all duration-300 hover:scale-105 h-12" asChild>
+               <a href="https://github.com/arseniy985/SOLANA-SIDEFINANCE-LANDING" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                 <Github className="w-5 h-5 mr-2" />
+                 GitHub
+               </a>
+             </Button>
+             
+             <Button variant="outline" className="border-emerald-400/50 bg-gray-800/50 text-emerald-300 hover:bg-emerald-500/20 hover:border-emerald-400 transition-all duration-300 hover:scale-105 h-12" asChild>
+               <a href="mailto:partnerships@sidefinance.org" className="flex items-center justify-center">
+                 <Users className="w-5 h-5 mr-2" />
+                 Partners
+               </a>
+             </Button>
+           </div>
+         </div>
 
         {/* Support Information */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
