@@ -195,7 +195,11 @@ const Research = () => {
             </div>
             
             <div className="flex space-x-2">
-              <Button size="sm" className="bg-purple-600/80 hover:bg-purple-600 text-white border-0 shadow-md group-hover:shadow-lg transition-all duration-300">
+              <Button 
+                onClick={() => alert("Downloads will be available starting August. Stay tuned for updates!")}
+                size="sm" 
+                className="bg-purple-600/80 hover:bg-purple-600 text-white border-0 shadow-md group-hover:shadow-lg transition-all duration-300"
+              >
                 <Download className="w-4 h-4 mr-1" />
                 Download
               </Button>

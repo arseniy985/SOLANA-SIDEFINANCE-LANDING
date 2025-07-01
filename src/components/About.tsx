@@ -159,13 +159,6 @@ const About = () => {
             <Sparkles className="w-4 h-4 ml-2 animate-pulse" />
           </div>
           
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight px-4">
-            <span className="block text-white mb-2">Transforming</span>
-            <span className="block bg-gradient-to-r from-emerald-300 via-green-400 to-cyan-400 bg-clip-text text-transparent leading-relaxed">
-              Digital Economics
-            </span>
-          </h1>
-          
           <p className="text-lg sm:text-xl text-gray-300 max-w-4xl mx-auto mb-10 leading-relaxed px-4">
             Pioneering the future through <span className="text-emerald-400 font-semibold">exceptional achievements</span> in 
             venture capital, elite education, and groundbreaking research. 

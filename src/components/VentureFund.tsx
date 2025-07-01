@@ -92,7 +92,7 @@ const VentureFund = () => {
           </h2>
           
           <p className="text-xl text-gray-200 max-w-4xl mx-auto mb-8 leading-relaxed">
-            We're raising a <span className="text-emerald-400 font-bold">$300K venture fund</span> to identify and scale 
+            We're raising a <span className="text-emerald-400 font-bold">$1M venture fund</span> to identify and scale 
             high-potential blockchain companies, preparing them for IPOs and strategic acquisitions in the rapidly 
             evolving digital economy.
           </p>
@@ -109,20 +109,20 @@ const VentureFund = () => {
               </div>
               <div className="grid grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-emerald-400 mb-1">$1.26M</div>
+                  <div className="text-3xl font-bold text-emerald-400 mb-1">$215K</div>
                   <div className="text-gray-300 text-sm">Committed</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-white mb-1">$300K</div>
+                  <div className="text-3xl font-bold text-white mb-1">$1M</div>
                   <div className="text-gray-300 text-sm">Target Size</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-teal-400 mb-1">42%</div>
+                  <div className="text-3xl font-bold text-teal-400 mb-1">21%</div>
                   <div className="text-gray-300 text-sm">Raised</div>
                 </div>
               </div>
               <div className="mt-6 bg-gray-700/50 rounded-full h-3">
-                <div className="bg-gradient-to-r from-emerald-500 to-teal-500 h-3 rounded-full" style={{ width: '42%' }}></div>
+                <div className="bg-gradient-to-r from-emerald-500 to-teal-500 h-3 rounded-full" style={{ width: '21%' }}></div>
               </div>
             </div>
           </div>

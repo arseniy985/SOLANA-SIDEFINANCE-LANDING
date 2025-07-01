@@ -62,11 +62,11 @@ const Hero = () => {
           {/* Key Numbers */}
           <div className="flex flex-wrap justify-center gap-8 mb-16">
             <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 px-8 py-6 rounded-3xl border border-cyan-400/30 backdrop-blur-sm shadow-2xl hover:scale-105 transition-all duration-300">
-              <div className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">$600K+</div>
+              <div className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">$30K+</div>
               <div className="text-slate-300 text-sm font-medium">Fund Raised</div>
             </div>
             <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 px-8 py-6 rounded-3xl border border-purple-400/30 backdrop-blur-sm shadow-2xl hover:scale-105 transition-all duration-300">
-              <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">1K+</div>
+              <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">250+</div>
               <div className="text-slate-300 text-sm font-medium">Students</div>
             </div>
             <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 px-8 py-6 rounded-3xl border border-blue-400/30 backdrop-blur-sm shadow-2xl hover:scale-105 transition-all duration-300">
