@@ -33,7 +33,7 @@ const Hero = () => {
           <div className="mb-12 py-4">
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-8 leading-[1.1] tracking-tight font-space-grotesk">
               <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent font-black pb-2">
-                Solana Institute of
+                Solana Institute of ПИСЬКИ ПИСЬКИ ПИСЬКИ ПИСЬКИ ПИСЬКИ ПИСЬКИ ПИСЬКИ 
               </span>
               <span className="block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-400 bg-clip-text text-transparent font-black pb-4">
                 Digital Economics
