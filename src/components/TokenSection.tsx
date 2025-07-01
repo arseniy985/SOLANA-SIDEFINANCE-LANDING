@@ -94,7 +94,7 @@ const TokenSection = () => {
       icon: Lock,
       title: "Multisig Treasury",
       subtitle: "Protected fund management", 
-      description: "5-of-7 multisig wallet securing $1.1M+ in assets with time-locked withdrawals",
+              description: "5-of-7 multisig wallet securing $600K+ in assets with time-locked withdrawals",
       status: "Active",
       color: "from-blue-600 to-cyan-700",
       borderColor: "border-blue-500/50",
@@ -322,7 +322,7 @@ const TokenSection = () => {
                   <div className="text-gray-300 text-xs">Monitoring</div>
                 </div>
                 <div className="text-center p-4 bg-gradient-to-br from-purple-900/30 to-violet-900/30 rounded-xl border border-purple-500/30">
-                  <div className="text-2xl font-bold text-purple-400 mb-1">$1.1M+</div>
+                  <div className="text-2xl font-bold text-purple-400 mb-1">$600K+</div>
                   <div className="text-gray-300 text-xs">Assets Secured</div>
                 </div>
                 <div className="text-center p-4 bg-gradient-to-br from-orange-900/30 to-red-900/30 rounded-xl border border-orange-500/30">

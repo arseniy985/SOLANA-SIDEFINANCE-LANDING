@@ -8,8 +8,10 @@ const Footer = () => {
     { name: "About", href: "#about" },
     { name: "Research", href: "#research" },
     { name: "Education", href: "#education" },
+    { name: "Partnership", href: "#partnership" },
+    { name: "Events", href: "#events" },
     { name: "$SIDE Token", href: "#token" },
-    { name: "Venture Fund", href: "#venture" },
+    { name: "Venture Fund", href: "#partnership" },
     { name: "Contact", href: "#contact" }
   ];
 

@@ -16,6 +16,12 @@ const Navigation = () => {
     name: 'Education',
     href: '#education'
   }, {
+    name: 'Partnership',
+    href: '#partnership'
+  }, {
+    name: 'Events',
+    href: '#events'
+  }, {
     name: 'Token $SIDE',
     href: '#token'
   }, {

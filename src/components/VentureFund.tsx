@@ -75,7 +75,7 @@ const VentureFund = () => {
   ];
 
   return (
-    <section id="venture" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-950 via-purple-950/50 to-slate-950">
+    <section id="partnership" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-950 via-purple-950/50 to-slate-950">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-20">
@@ -92,7 +92,7 @@ const VentureFund = () => {
           </h2>
           
           <p className="text-xl text-gray-200 max-w-4xl mx-auto mb-8 leading-relaxed">
-            We're raising a <span className="text-emerald-400 font-bold">$3M venture fund</span> to identify and scale 
+            We're raising a <span className="text-emerald-400 font-bold">$300K venture fund</span> to identify and scale 
             high-potential blockchain companies, preparing them for IPOs and strategic acquisitions in the rapidly 
             evolving digital economy.
           </p>
@@ -113,7 +113,7 @@ const VentureFund = () => {
                   <div className="text-gray-300 text-sm">Committed</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-white mb-1">$3M</div>
+                  <div className="text-3xl font-bold text-white mb-1">$300K</div>
                   <div className="text-gray-300 text-sm">Target Size</div>
                 </div>
                 <div className="text-center">

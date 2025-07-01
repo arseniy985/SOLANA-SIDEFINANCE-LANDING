@@ -49,7 +49,7 @@ const About = () => {
   const majorAchievements = [
     {
       title: "Venture Fund Success",
-      value: "$1.1M+",
+      value: "$600K+",
       description: "Successfully raised and managed venture capital fund",
       detail: "Leading blockchain investments with 300% average ROI",
       icon: <Building className="w-8 h-8" />,
@@ -58,7 +58,7 @@ const About = () => {
     },
     {
       title: "Students Graduated",
-      value: "1,125+",
+      value: "250+",
       description: "Elite blockchain professionals trained and certified",
       detail: "95% employment rate in top-tier companies",
       icon: <GraduationCap className="w-8 h-8" />,
@@ -99,7 +99,7 @@ const About = () => {
       icon: <Briefcase className="w-8 h-8" />,
       gradient: "from-emerald-500 to-green-600",
       achievements: [
-        "Raised $1.1M in Series A funding",
+        "Raised $600K in Series A funding",
         "13+ portfolio companies with avg 500% growth",
         "3 unicorn companies created",
         "300% average ROI across all investments"
@@ -112,7 +112,7 @@ const About = () => {
       icon: <Medal className="w-8 h-8" />,
       gradient: "from-blue-500 to-cyan-600",
       achievements: [
-        "1,125+ certified blockchain professionals",
+        "250+ certified blockchain professionals",
         "95% job placement rate in tier-1 companies",
         "Partnership with 350+ leading corporations",
         "Alumni working at Google, Microsoft, Binance"

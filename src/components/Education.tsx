@@ -319,7 +319,10 @@ const Education = () => {
                 )}
               </div>
               
-              <Button className="bg-gradient-to-r from-purple-600 to-violet-700 hover:from-purple-700 hover:to-violet-800 text-white shadow-lg group-hover:shadow-xl transition-all duration-300">
+              <Button 
+                onClick={() => alert("Registration will be available starting August. Stay tuned for updates!")}
+                className="bg-gradient-to-r from-purple-600 to-violet-700 hover:from-purple-700 hover:to-violet-800 text-white shadow-lg group-hover:shadow-xl transition-all duration-300"
+              >
                 <ExternalLink className="w-4 h-4 mr-2" />
                 Register Now
               </Button>
@@ -414,7 +417,7 @@ const Education = () => {
         </div>
 
         {/* Redesigned Upcoming Events */}
-        <div className="mb-20">
+        <div id="events" className="mb-20">
           <div className="text-center mb-12">
             <h3 className="text-4xl font-bold text-white mb-4">Upcoming Events</h3>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
