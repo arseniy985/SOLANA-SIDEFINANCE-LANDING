@@ -35,6 +35,12 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 
 const About = () => {
+  const successMetrics = [
+    { label: "Fund Performance", value: "300%", suffix: "ROI", icon: <LineChart className="w-6 h-6" /> },
+    { label: "Student Success", value: "95%", suffix: "Placement", icon: <Trophy className="w-6 h-6" /> },
+    { label: "Market Leaders", value: "3", suffix: "Unicorns", icon: <Crown className="w-6 h-6" /> }
+  ];
+
   return (
     <section id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-950 via-gray-900 to-slate-950 relative overflow-hidden">
       {/* Enhanced Background */}
@@ -45,14 +51,22 @@ const About = () => {
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        {/* Content placeholder - all achievement blocks have been removed */}
-        <div className="text-center py-32">
-          <h2 className="text-3xl font-bold text-white mb-6">
-            О нас
-          </h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Добро пожаловать в наш институт экономики блокчейна.
-          </p>
+        {/* Success Metrics Bar */}
+        <div className="mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 justify-items-center max-w-4xl mx-auto">
+            {successMetrics.map((metric, index) => (
+              <div key={index} className="flex items-center space-x-4 p-6 bg-gradient-to-r from-slate-800/60 to-slate-700/40 rounded-2xl border border-emerald-500/20 backdrop-blur-sm">
+                <div className="w-12 h-12 bg-gradient-to-r from-emerald-500 to-green-600 rounded-xl flex items-center justify-center text-white flex-shrink-0">
+                  {metric.icon}
+                </div>
+                <div>
+                  <div className="text-2xl font-bold text-white">{metric.value}</div>
+                  <div className="text-emerald-400 text-sm font-semibold">{metric.suffix}</div>
+                  <div className="text-gray-400 text-xs">{metric.label}</div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
